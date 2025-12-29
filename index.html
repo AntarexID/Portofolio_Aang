@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Aang Nuh Abdullah</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">PORTO<span>FOLIO</span></div>
+            
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="javascript:void(0)" onclick="openModal()" class="btn-contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Halo, perkenalkan nama saya <br>
+                    <span class="name-highlight">Aang Nuh Abdullah</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Saya seorang <span class="typing"></span>
+                </p>
+                <div class="hero-btns">
+                    <a href="#about" class="btn primary">Tentang Saya</a>
+                    <a href="#portfolio" class="btn secondary">Lihat Karya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img">
+                    <img src="Aang NA.png" alt="Aang Nuh Abdullah">
+                </div>
+                <div class="about-text">
+                    <span class="sub-title">Profil Singkat</span>
+                    <h2>Tentang Saya</h2>
+                    <p>Saya seorang pendidik yang aktif mengajar serta memiliki kemampuan di bidang <strong>web development</strong> dan <strong>desain produk</strong>.</p>
+                    <p>Mampu mendesain website serta merancang desain produk yang fungsional dan estetis untuk menunjang media pembelajaran digital.</p>
+                    
+                    <div class="personal-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span><strong>Tempat Lahir:</strong> Bandung</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span><strong>Tanggal Lahir:</strong> 05 November 2001</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume & Keahlian</h2>
+            <div class="resume-grid">
+                <div class="resume-col">
+                    <h3><i class="fas fa-graduation-cap"></i> Pendidikan</h3>
+                    <div class="card-item">
+                        <h4>Universitas Teknologi Bandung</h4>
+                        <p class="date">2020 - Sekarang</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>SMA Negeri 1 Majalaya</h4>
+                        <p class="date">2017 - 2020</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>SMP Negeri 2 Solokanjeruk</h4>
+                        <p class="date">2014 - 2017</p>
+                    </div>
+                    <div class="card-item">
+                        <h4>SD Negeri Sukamulya</h4>
+                        <p class="date">2009 - 2014</p>
+                    </div>
+                </div>
+
+                <div class="resume-col">
+                    <div class="skill-group">
+                        <h3><i class="fas fa-laptop-code"></i> Hard Skills</h3>
+                        <div class="skills-box">
+                            <div class="skill-tag">HTML & CSS</div>
+                            <div class="skill-tag">JavaScript</div>
+                            <div class="skill-tag">Web Design</div>
+                            <div class="skill-tag">Product Design</div>
+                        </div>
+                    </div>
+                    <div class="skill-group" style="margin-top: 30px;">
+                        <h3><i class="fas fa-user-check"></i> Soft Skills</h3>
+                        <div class="skills-box">
+                            <div class="skill-tag">Public Speaking</div>
+                            <div class="skill-tag">Kerja Sama Tim</div>
+                            <div class="skill-tag">Analisis</div>
+                            <div class="skill-tag">Problem Solving</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+    <div class="container">
+        <h2 class="section-title">Portofolio Saya</h2>
+        <div class="portfolio-grid">
+            
+            <div class="portfolio-card">
+                <img src="undangan digital.jpg" alt="Proyek Web">
+                <div class="portfolio-overlay">
+                    <h4>Web Development</h4>
+                    <p>Membangun Undangan Digital.</p>
+                    <a href="https://antarexid.github.io/Wedding-Argo-Salsa28/" target="_blank" class="btn-link">Lihat Proyek</a>
+                </div>
+            </div>
+
+            <div class="portfolio-card">
+                <img src="homecare.jfif" alt="Proyek Desain">
+                <div class="portfolio-overlay">
+                    <h4>Product Design</h4>
+                    <p>Website Sederhana Home Care.</p>
+                    <a href="https://antarexid.github.io/kazoku-web/" target="_blank" class="btn-link">Lihat Proyek</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h3>Hubungi Saya</h3>
+            <div class="modal-links">
+                <a href="https://wa.me/6282118895335" target="_blank" class="modal-link wa">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="mailto:aangna21@gmail.com" class="modal-link mail">
+                    <i class="far fa-envelope"></i> Email
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="top-left-social">
+        <a href="https://www.instagram.com/e.eugene_" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/AntarexID" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.facebook.com/aang.na.2025" target="_blank"><i class="fab fa-facebook"></i></a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
